@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact | Mohammad Abdullah Irfan</title>
+    <meta name="description" content="Contact form to reach Abdullah.">
+    <meta name="author" content="Mohammad Abdullah Irfan">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="logo-title">
+                <div class="site-identity">
+                    <h1 class="site-title">Contact</h1>
+                </div>
+            </div>
+
+            <nav id="menu" aria-label="Main navigation">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="artefacts.html">Artefacts</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="contact-intro">
+            <h2>Contact form</h2>
+            <p>
+                Use this form to reach me about opportunities, project ideas,
+                or feedback on my work.
+            </p>
+        </section>
+
+        <div class="contact-form-section">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your details</legend>
+
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="reason">Reason for contact</label>
+                    <select id="reason" name="reason" required>
+                        <option value="">Please choose an option</option>
+                        <option value="job-opportunity">Job or internship opportunity</option>
+                        <option value="project-collab">Project or collaboration</option>
+                        <option value="feedback">Feedback on my work</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your message</legend>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="respond" value="yes">
+                        Please email me back
+                    </label>
+                </fieldset>
+
+                <button type="submit" class="button primary-cta">Send message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Mohammad Abdullah Irfan.</p>
+    </footer>
+</body>
+</html>
+
