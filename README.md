@@ -5,6 +5,7 @@ Professor: Namrata Khemka-Dolan
 
 **Please currently ignore my experience with C++ , as it is not advanced enough**
 
+**CLICK THIS LINK TO SEE THE WEBSITE**
 **netlify link**- https://delicate-cat-6b342f.netlify.app/
 
 1. PROJECT OVERVIEW
